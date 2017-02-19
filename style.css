@@ -1,0 +1,56 @@
+body {
+	font-family: Arial;
+	margin: 0;
+
+}
+
+.body {
+	padding-top: 200px;
+	margin: auto;
+	text-align: center;
+}
+
+.logo {
+	background-image: url("https://www.google.nl/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+	width: 272px;
+	height: 92px;
+	margin: auto;
+	position: relative;
+}
+
+.country {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.navbar a {
+	float: right;
+	padding: 10px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: gray;
+}
+
+.footer_left a {
+	float: left;
+	padding: 10px;
+}
+
+.footer_right a:first-child {
+	padding-right: 20px;
+}
+.footer_right a {
+	float: right;
+	padding: 10px;
+}
